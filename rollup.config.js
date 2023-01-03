@@ -1,4 +1,5 @@
 import typescript from '@rollup/plugin-typescript';
+import scss from 'rollup-plugin-scss';
 
 export default {
 	input: "src/main.ts",
@@ -17,5 +18,12 @@ export default {
 			format: 'umd',
 		},
 	],
-	plugins: [typescript()]
+	plugins: [
+		typescript(),
+		scss({
+			output: `dist/bundle.min.css`,
+			sourceMap: true,
+			outputStyle: 'compressed'
+		})
+	]
 }

@@ -2,7 +2,7 @@
 
 a simple reading process bar library
 
-<p align="center">
+<p>
     <img src="https://img.shields.io/github/last-commit/artistudioxyz/node-selendang" alt="Last Commit">
 	<img src="https://img.shields.io/github/repo-size/artistudioxyz/node-selendang" alt="Repo Size">
 	<img src="https://img.shields.io/github/package-json/v/artistudioxyz/node-selendang" alt="Version">
