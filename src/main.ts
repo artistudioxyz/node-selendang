@@ -1,5 +1,5 @@
 import './style.css'
-import { setupCounter } from './counter'
+import {setupCounter} from './counter'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -11,7 +11,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       a simple reading process bar library
     </p>
     <div class="card">
-      <button id="counter" type="button"></button>
+		<img src="https://img.shields.io/github/last-commit/artistudioxyz/node-selendang" alt="Last Commit">
+		<img src="https://img.shields.io/github/repo-size/artistudioxyz/node-selendang" alt="Repo Size">
+		<img src="https://img.shields.io/github/package-json/v/artistudioxyz/node-selendang" alt="Version">
     </div>
   </div>
 `
