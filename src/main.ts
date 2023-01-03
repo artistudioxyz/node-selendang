@@ -1,6 +1,8 @@
 import "./css/style.scss"
 
-export function greet(name: string) {
-	return `Hello, ${name}!`;
+export class Selendang {
+	constructor(name: string){
+		console.log(`Hello, ${name}!`)
+	}
 }
 
