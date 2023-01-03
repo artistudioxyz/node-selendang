@@ -1,6 +1,7 @@
 {
   "name": "node-selendang",
-  "private": true,
+  "description": "a simple reading process bar library",
+  "keywords": ["reading-bar"],
   "version": "0.0.0",
   "type": "module",
   "author": "Agung Sundoro",
