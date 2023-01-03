@@ -1,4 +1,5 @@
-import { Selendang } from "../../src/main";
+import Selendang from "../../src/main";
+let selendang = new Selendang('Agung');
 
 export default `
 	<div id="container-readme">
@@ -8,7 +9,7 @@ export default `
 		<h1>~ Node Selendang ~</h1>
 		<div class="read-the-docs">
 			<p>a simple reading process bar library</p>
-			${ new Selendang('Agung') }
+			${ selendang }
 		</div>
 	</div>
 `

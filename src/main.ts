@@ -1,6 +1,6 @@
 import "./css/style.scss"
 
-export class Selendang {
+export default class Selendang {
 	constructor(name: string){
 		console.log(`Hello, ${name}!`)
 	}
