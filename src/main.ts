@@ -1,3 +1,4 @@
-export const ReadingBar = () => {
-	console.log('goks')
+export function greet(name: string) {
+	return `Hello, ${name}!`;
 }
+

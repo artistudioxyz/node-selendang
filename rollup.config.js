@@ -4,16 +4,17 @@ export default {
 	input: "src/main.ts",
 	output: [
 		{
+			file: "dist/bundle.cjs.js",
 			format: 'cjs',
-			entryFileNames: "[name].bundle.[format].js",
 		},
 		{
+			file: "dist/bundle.es.js",
 			format: 'es',
-			entryFileNames: "[name].bundle.[format].js",
 		},
 		{
+			name: "Selendang",
+			file: "dist/bundle.umd.js",
 			format: 'umd',
-			entryFileNames: "[name].bundle.[format].js",
 		},
 	],
 	plugins: [typescript()]

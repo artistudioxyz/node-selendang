@@ -9,10 +9,8 @@
   "author": "Agung Sundoro",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "rollup -c rollup.config.js",
-    "build2": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "rollup -c",
+    "watch": "rollup -c --watch"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^10.0.1",
