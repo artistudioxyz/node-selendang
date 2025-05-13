@@ -1,13 +1,30 @@
 {
   "name": "node-selendang",
-  "description": "a simple reading process bar library",
+  "description": "A lightweight and customizable reading progress bar library for web pages, designed to enhance user experience by indicating how much content remains.",
   "keywords": [
-    "reading-bar"
+    "reading-bar",
+    "progress-bar",
+    "scroll-indicator",
+    "reading-progress",
+    "scroll-progress",
+    "reading-ui",
+    "user-experience",
+    "frontend",
+    "javascript",
+    "web"
   ],
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "author": "Agung Sundoro",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artistudioxyz/node-selendang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artistudioxyz/node-selendang/issues"
+  },
+  "homepage": "https://github.com/artistudioxyz/node-selendang#readme",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c --watch"
