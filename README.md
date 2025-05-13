@@ -13,6 +13,13 @@ A lightweight and customizable reading progress bar library for web pages, desig
 npm install node-selendang
 ```
 
+## 📖 Usage
+```javascript
+const Selendang = require('@artistudio/selendang');
+
+let selendang = new Selendang();
+```
+
 ## 🛠️ Development
 - NPM Install `npm i`
 - Run dev `npm run dev`
